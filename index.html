@@ -1,0 +1,312 @@
+
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>BLACK CLOVER</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+
+<body class="w3-light-green">
+
+<!-- Navigation bar with social media icons --> 
+
+
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-black-green">
+    <h1 class="w3-xxxlarge"><b>Black Clover </b></h1>
+    <h6>El anime que te esnseñara a <span class="w3-tag">Superar tus LIMITES</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="img/blackclover.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-green">y descubrir que el mejor poder magico es </h1>
+      <h1 class="w3-jumbo w3-text-black w3-hide-small"><b>NUNCA RENDIRSE</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">INCRESAR</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>El reino del tebol</h3>
+          <h5>El mejor de los cuatro reinos del mundo magico
+              <span class="w3-opacity">UwU UwU</span>
+          </h5>
+        </div>
+      
+        <div class="w3-justify">
+          <img src="img/Mapa de black Clover.jpg" alt="Reinos" style="width:100%" class="w3-padding-16">
+          <h3>Sinopsis</h3>
+          <p><strong> ¡Black Clover!  </strong>Cuando la humanidad estaba a punto de caer por un demonio antiguo, un solo mago lo derrotó y la salvó. 
+            Más tarde, el mago se convirtió en una leyenda y se le conoció como Rey mago. 
+            Tras ello, el Reino del Trébol gozó de paz a través de generaciones de reyes magos y nueve órdenes mágicas subordinadas.
+
+            Asta y Yuno son huérfanos que se criaron juntos desde que nacieron después de ser abandonados en un orfanato de la iglesia de Hage, ubicada en la zona olvidada del Reino del Trébol al mismo tiempo. 
+            En un mundo donde todos tienen poder mágico, Asta es el único que ha nacido sin magia, lo que lo lleva a entrenar físicamente como compensación. 
+            Por el contrario, Yuno nació como un prodigio con un inmenso poder mágico y el talento para controlarlo.</p>
+          <p class="w3-left"><button class="w3-button w3-blue w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/Yuno.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Yuno <span class="w3-opacity w3-medium"> Oct 09, 2023, 7:32 PM</span></h4>
+                <p>Yo sere el proximo Rey mago, Asta. </p>
+              </div>
+          </div>
+          <div class="w3-col l2 m3">
+            <img src="img/asta.webp" style="width:90px;">
+          </div>
+          <div class="w3-col l10 m9">
+            <h4>Asta<span class="w3-opacity w3-medium"> Oct 09, 2023, 7:40 PM</span></h4>
+            <p>No, yo sere el proximo rey mago Yuno. </p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      
+
+
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-grey w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>El priximo rey mago</h3>
+          <h5>El mas perseverante y el mayor cabeza hueca de la historia <span class="w3-opacity">OwO</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/asta.webp" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>Asta</strong> El que es Puro musculo</p>
+          <p>Asta en general es alegre e hiperactivo. Tiende a gritar para expresar sus pensamientos y expresar sus objetivos, independientemente de las opiniones de otras personas, 
+            como se vio cuando expresó su objetivo de convertirse en Rey Mago durante el examen de Ingreso de los Caballeros Mágicos, donde le dice a otras personas que si no están de acuerdo con él que se callen.</p>
+          <p class="w3-left"><button class="w3-button w3-blue w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/Noelle Silva.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Noelle Silva<span class="w3-opacity w3-medium"> Nov 10, 2023, 7:22 PM</span></h4>
+                <p>Yo se que lo lograras Asta.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/Luck Voltia.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Luck Voltia<span class="w3-opacity w3-medium"> Nov 18, 2023, 10:32 PM</span></h4>
+                <p>Peleemos Asta para ver quien es mas fuerte.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/Sylph.webp" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Sylph<span class="w3-opacity w3-medium"> Nov 19, 2023, 1:12 AM</span></h4>
+                <p>Yuno es mucho mejor que tu Asta!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="img/Nero.webp" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>Nero</h4>
+          <p>En realidad fui humana hace mas de 500 años UvU</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-yellow w3-margin">
+        <div class="w3-container w3-padding w3-grey">
+          <h4>Comentarios Randoom</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="img/Liebe.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Liebe</span>
+            <br>
+            <span>Deberias de enetregarme tu cuerpo Asta</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/mimosa-vermillion.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Mimosa</span>
+            <br>
+            <span>¡No le puedes quitar el cuerpo a Asta! </span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/Nero.webp" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Fenrir</span>
+            <br>
+            <span>Yo se que podras lograr cumplir el sueño del primer Rey mago!</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/Yami.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Yami</span>
+            <br>
+            <span>Espero que logres romper tus Limites mucho mejor mocoso</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-grey">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Manga</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">blackclover</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Reino del trebol</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Anime</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">inspiracion</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Rey mago</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shounen</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">fantasía</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Demonios</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Acción</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Comedia</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Antimagia</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Magia</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Muñecas que hablan</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Orden de los Toros Negros</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s16">
+            <p><img src="img/TorosNegros.jpg" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-grey">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Ingrese su correo electrónico a continuación y reciba notificaciones sobre las últimas publicaciones del blog.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
